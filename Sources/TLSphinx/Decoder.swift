@@ -10,6 +10,7 @@ import Foundation
 import AVFoundation
 import Sphinx
 
+#if os(iOS)
 
 fileprivate enum SpeechStateEnum : CustomStringConvertible {
     case silence
@@ -265,3 +266,5 @@ public final class Decoder {
         }
     }
 }
+
+#endif
