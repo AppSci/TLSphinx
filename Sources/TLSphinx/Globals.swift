@@ -8,8 +8,8 @@
 
 import Foundation
 
-let STrue: uint8 = 1
-let SFalse: uint8 = 0
+let STrue: UInt8 = 1
+let SFalse: UInt8 = 0
 
 let STrue32: CInt = 1
 let SFalse32: CInt = 0
